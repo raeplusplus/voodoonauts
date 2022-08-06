@@ -1,13 +1,13 @@
+import { Nav, NavbarContainer, NavLogo } from "./NavbarElements";
+
 const Navbar = () => {
   return (
     <>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>News</li>
-        <li>Alumni</li>
-        <li>Contact Us</li>
-      </ul>
+      <Nav>
+        <NavbarContainer>
+          <NavLogo>Voodoonauts</NavLogo>
+        </NavbarContainer>
+      </Nav>
     </>
   );
 };
