@@ -38,7 +38,7 @@ export const founderShingai = {
   img: require("../../images/svg-1.svg"),
   alt: "Shingai Njeri Kagunda",
   dark: true,
-  primary: true,
+  primary: false,
   darkText: false,
 };
 
@@ -60,7 +60,7 @@ export const founderYvette = {
   img: require("../../images/svg-1.svg"),
   alt: "Yvette Lisa Ndlovu",
   dark: true,
-  primary: true,
+  primary: false,
   darkText: false,
 };
 
@@ -80,7 +80,7 @@ export const founderLP = {
   img: require("../../images/svg-1.svg"),
   alt: "LP Kindred",
   dark: true,
-  primary: true,
+  primary: false,
   darkText: false,
 };
 
@@ -101,6 +101,6 @@ export const founderHugh = {
   img: require("../../images/svg-1.svg"),
   alt: "Hugh “H.D” Hunter",
   dark: true,
-  primary: true,
+  primary: false,
   darkText: false,
 };

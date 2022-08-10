@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Alumni from "../components/Alumni/Alumni";
 import HeroSection from "../components/HeroSection/HeroSection";
 import {
   founderHugh,
@@ -28,6 +29,7 @@ const Home = () => {
       <InfoSection {...founderYvette} />
       <InfoSection {...founderLP} />
       <InfoSection {...founderHugh} />
+      <Alumni />
     </>
   );
 };
