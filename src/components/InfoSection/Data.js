@@ -96,7 +96,7 @@ export const founderHugh = {
   description2:
     "Hugh is also an alum of the inaugural YA Fiction Workshop at Tin House. Hugh travels the U.S. as a teaching artist designing writing workshops and other engagements for middle and high school students. Hugh is vegan and he loves memes. Follow him at hd_tsd.",
   buttonLabel: "Meet Hugh",
-  //   buttonLink: (href = "https://twitter.com/hd_tsd"),
+  buttonLink: "https://twitter.com/hd_tsd",
   imgStart: true,
   img: require("../../images/svg-1.svg"),
   alt: "Hugh “H.D” Hunter",

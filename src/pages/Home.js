@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Alumni from "../components/Alumni/Alumni";
+import Footer from "../components/Footer/Footer";
 import HeroSection from "../components/HeroSection/HeroSection";
 import {
   founderHugh,
@@ -30,6 +31,7 @@ const Home = () => {
       <InfoSection {...founderLP} />
       <InfoSection {...founderHugh} />
       <Alumni />
+      <Footer />
     </>
   );
 };

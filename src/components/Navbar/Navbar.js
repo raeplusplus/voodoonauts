@@ -30,6 +30,7 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks to="alumni">Alumni</NavLinks>
             </NavItem>
+            <NavItem to="bookshelf">Bookshelf</NavItem>
             <NavItem>
               <NavLinks to="contact">Contact Us</NavLinks>
             </NavItem>
@@ -38,7 +39,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/join">Join The Fellowship</NavBtnLink>
+            <NavBtnLink to="/signin">Join The Fellowship</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
