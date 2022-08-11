@@ -34,7 +34,8 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="/">Voodoonauts</SocialLogo>
             <WebsiteRights>
-              Raeshelle Rose © {new Date().getFullYear()} All Rights Reserved.
+              <a href="https://raeshellerose.netlify.app">Raeshelle Rose</a> ©
+              {new Date().getFullYear()} All Rights Reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
