@@ -6,7 +6,15 @@ import {
   FooterLinksItems,
   FooterLinkTitle,
   FooterLink,
+  SocialMedia,
+  SocialIconLink,
+  SocialIcons,
+  SocialLogo,
+  SocialMediaWrap,
+  WebsiteRights,
 } from "./FooterElements";
+
+import { FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -20,20 +28,39 @@ const Footer = () => {
               <FooterLink to="/signin">Testimonials</FooterLink>
               <FooterLink to="/signin">Contact Us</FooterLink>
             </FooterLinksItems>
-            <FooterLinksItems>
-              <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink href="https://twitter.com/voodoonauts">
-                Twitter
-              </FooterLink>
-              <FooterLink href="https://www.instagram.com/voodoonauts/">
-                Instagram
-              </FooterLink>
-              <FooterLink href="https://www.youtube.com/channel/UCNvjCZFJdU9SDdSy7O9iuWQ">
-                YouTube
-              </FooterLink>
-            </FooterLinksItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to="/">Voodoonauts</SocialLogo>
+            <WebsiteRights>
+              Raeshelle Rose © {new Date().getFullYear()} All Rights Reserved.
+            </WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink
+                href="//www.twitter.com/voodoonauts"
+                target="_blank"
+                aria-label="Twitter"
+              >
+                <FaTwitter />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.instagram.com/voodoonauts"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.youtube.com/channel/UCNvjCZFJdU9SDdSy7O9iuWQ"
+                target="_blank"
+                aria-label="YouTube"
+              >
+                <FaYoutube />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   );

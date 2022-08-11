@@ -9,7 +9,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" component={Home} exact />
-        {/* <Route path="/alumni" component={AlumniPage} exact /> */}
         <Route path="/signin" component={SigninPage} exact />
       </Routes>
     </Router>
