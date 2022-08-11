@@ -55,7 +55,7 @@ export const AlumniCard = styled.div`
   }
 `;
 
-export const AlumniImg = styled.div`
+export const AlumniImg = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
