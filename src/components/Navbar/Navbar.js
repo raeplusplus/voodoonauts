@@ -6,8 +6,8 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBtn,
-  NavBtnLink,
+  // NavBtn,
+  // NavBtnLink,
 } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
 
@@ -24,25 +24,25 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks to="about">About</NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="news">News</NavLinks>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLinks to="alumni">Alumni</NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="bookshelf">Bookshelf</NavLinks>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLinks to="contact">Contact Us</NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to="signin">Sign In</NavLinks>
-            </NavItem>
+            </NavItem> */}
           </NavMenu>
-          <NavBtn>
+          {/* <NavBtn>
             <NavBtnLink to="/signin">Join The Fellowship</NavBtnLink>
-          </NavBtn>
+          </NavBtn> */}
         </NavbarContainer>
       </Nav>
     </>

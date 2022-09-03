@@ -9,7 +9,7 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  BtnWrap,
+  // BtnWrap,
   ImgWrap,
   Img,
   TextWrapper,
@@ -46,7 +46,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description1}</Subtitle>
                 <Subtitle darkText={darkText}>{description2}</Subtitle>
                 <Subtitle darkText={darkText}>{description3}</Subtitle>
-                <BtnWrap>
+                {/* <BtnWrap>
                   <a href={buttonLink}>
                     <Button
                       to={buttonLink}
@@ -62,7 +62,7 @@ const InfoSection = ({
                       {buttonLabel}
                     </Button>
                   </a>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper>
             </Column1>
             <Column2>

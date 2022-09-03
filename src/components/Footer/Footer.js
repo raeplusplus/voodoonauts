@@ -22,20 +22,31 @@ const Footer = () => {
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
-            <FooterLinksItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/signin">Our Founders</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Contact Us</FooterLink>
+            {/* <FooterLinksItems>
+              <FooterLink to="#about">About Us</FooterLink>
             </FooterLinksItems>
+            <FooterLinksItems>
+              <FooterLink to="shingai">Our Founders</FooterLink>
+            </FooterLinksItems>
+            <FooterLinksItems>
+              <FooterLink to="alumni">Our Alumni</FooterLink>
+            </FooterLinksItems> */}
+            {/* <FooterLinksItems>
+              <FooterLink to="/signin">Testimonials</FooterLink>
+            </FooterLinksItems> */}
+            {/* <FooterLinksItems>
+              <FooterLink to="/signin">Contact Us</FooterLink>
+            </FooterLinksItems> */}
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/">Voodoonauts</SocialLogo>
             <WebsiteRights>
-              <a href="https://raeshellerose.netlify.app">Raeshelle Rose</a> ©
-              {new Date().getFullYear()} All Rights Reserved.
+              <a href="https://raeshellerose.netlify.app" target="_blank">
+                Raeshelle Rose
+              </a>{" "}
+              ©{new Date().getFullYear()} All Rights Reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
