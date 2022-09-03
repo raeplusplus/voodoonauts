@@ -60,6 +60,9 @@ export const AlumniImg = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
 `;
 export const AlumniH1 = styled.h1`
   font-size: 2.5rem;
