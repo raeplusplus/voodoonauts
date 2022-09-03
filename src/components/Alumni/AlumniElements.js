@@ -9,7 +9,8 @@ export const AlumniContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 100%;
+    width: 100%;
   }
 
   @media screen and (max-width: 400px) {
