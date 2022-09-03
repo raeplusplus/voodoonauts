@@ -14,7 +14,7 @@ export const AlumniContainer = styled.div`
   }
 
   @media screen and (max-width: 400px) {
-    height: 1300px;
+    height: 100%;
   }
 `;
 //4 alumni grid?
