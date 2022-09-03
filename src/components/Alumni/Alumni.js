@@ -8,7 +8,7 @@ import {
   AlumniP,
 } from "./AlumniElements";
 
-import { Button } from "../Button";
+// import { Button } from "../Button";
 
 import roseImg from "../../images/Raeshelle_Rose_Headshot.png";
 import williamsImg from "../../images/williamsImg.jpg";

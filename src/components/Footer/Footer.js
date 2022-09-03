@@ -3,9 +3,9 @@ import {
   FooterWrap,
   FooterLinksContainer,
   FooterLinksWrapper,
-  FooterLinksItems,
-  FooterLinkTitle,
-  FooterLink,
+  // FooterLinksItems,
+  // FooterLinkTitle,
+  // FooterLink,
   SocialMedia,
   SocialIconLink,
   SocialIcons,
@@ -43,7 +43,11 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="/">Voodoonauts</SocialLogo>
             <WebsiteRights>
-              <a href="https://raeshellerose.netlify.app" target="_blank">
+              <a
+                href="https://raeshellerose.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Raeshelle Rose
               </a>{" "}
               ©{new Date().getFullYear()} All Rights Reserved.
