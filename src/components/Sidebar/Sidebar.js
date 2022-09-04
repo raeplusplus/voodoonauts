@@ -2,10 +2,10 @@ import {
   SidebarContainer,
   Icon,
   CloseIcon,
-  SideBtnWrap,
+  // SideBtnWrap,
   SidebarLink,
   SidebarMenu,
-  SidebarRoute,
+  // SidebarRoute,
   SidebarWrapper,
 } from "./SidebarElements";
 
@@ -21,22 +21,22 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLink to="about" onClick={toggle}>
               About
             </SidebarLink>
-            <SidebarLink to="news" onClick={toggle}>
+            {/* <SidebarLink to="news" onClick={toggle}>
               News
-            </SidebarLink>
+            </SidebarLink> */}
             <SidebarLink to="alumni" onClick={toggle}>
               Alumni
             </SidebarLink>
-            <SidebarLink to="contact" onClick={toggle}>
+            {/* <SidebarLink to="contact" onClick={toggle}>
               Contact Us
-            </SidebarLink>
-            <SidebarLink to="signin" onClick={toggle}>
+            </SidebarLink> */}
+            {/* <SidebarLink to="signin" onClick={toggle}>
               Sign In
-            </SidebarLink>
+            </SidebarLink> */}
           </SidebarMenu>
-          <SideBtnWrap>
+          {/* <SideBtnWrap>
             <SidebarRoute to="/join">Join The Fellowship</SidebarRoute>
-          </SideBtnWrap>
+          </SideBtnWrap> */}
         </SidebarWrapper>
       </SidebarContainer>
     </>
